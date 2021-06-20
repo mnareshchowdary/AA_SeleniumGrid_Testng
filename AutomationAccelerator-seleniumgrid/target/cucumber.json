@@ -1,0 +1,629 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17610238200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has already logged in to application",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.AccountsPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "dec2020secondbatch@gmail.com",
+                  "Selenium@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-20T17:08:51.285Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4997900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3375952800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Accounts page title",
+        "description": "",
+        "id": "account-page-feature;accounts-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 1078400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 62451000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20442900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on Accounts page",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.AccountsPageSteps.user_is_on_accounts_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15048800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user gets the title of the page",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1364000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "page title should be \"My account - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account - My Store\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accounts"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17919796500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has already logged in to application",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.AccountsPageSteps.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "dec2020secondbatch@gmail.com",
+                  "Selenium@12345"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-20T17:09:12.524Z",
+        "before": [
+          {
+            "result": {
+              "duration": 520800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1976189300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Accounts section count",
+        "description": "",
+        "id": "account-page-feature;accounts-section-count",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 67036500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17922200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on Accounts page",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.AccountsPageSteps.user_is_on_accounts_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 268414600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user gets accounts section",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.AccountsPageSteps.user_gets_accounts_section(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ORDER HISTORY AND DETAILS"
+                ]
+              },
+              {
+                "cells": [
+                  "MY CREDIT SLIPS"
+                ]
+              },
+              {
+                "cells": [
+                  "MY ADDRESSES"
+                ]
+              },
+              {
+                "cells": [
+                  "MY PERSONAL INFORMATION"
+                ]
+              },
+              {
+                "cells": [
+                  "MY WISHLISTS"
+                ]
+              },
+              {
+                "cells": [
+                  "Home"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24308700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "accounts section count should be 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 33
+                }
+              ],
+              "location": "com.accelerator.stepdefinitions.AccountsPageSteps.accounts_section_count_should_be(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@accounts"
+          }
+        ]
+      }
+    ],
+    "name": "Account Page Feature",
+    "description": "",
+    "id": "account-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountsPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-20T17:08:51.290Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6569700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3314868200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login page title",
+        "description": "",
+        "id": "login-page-feature;login-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 1523000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 62952700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11305873600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23092700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user gets the title of the page",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5864300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "page title should be \"Login - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login - My Store\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-20T17:09:06.157Z",
+        "before": [
+          {
+            "result": {
+              "duration": 535100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2011123500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Forgot Password link",
+        "description": "",
+        "id": "login-page-feature;forgot-password-link",
+        "after": [
+          {
+            "result": {
+              "duration": 990800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 138316000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9041839400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125497900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "forgot your password link should be displayed",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.forgot_your_password_link_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-20T17:09:17.500Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1006100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1852512200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with correct credentials",
+        "description": "",
+        "id": "login-page-feature;login-with-correct-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 69297400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.accelerator.hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9807828300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212725200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters username \"dec2020secondbatch@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dec2020secondbatch@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.user_enters_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112174900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters password \"Selenium@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium@12345\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2975781300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46332100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user gets the title of the page",
+            "match": {
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 543900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "page title should be \"My account - My Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My account - My Store\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.accelerator.stepdefinitions.LoginPageSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login page feature",
+    "description": "",
+    "id": "login-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginPage.feature",
+    "tags": []
+  }
+]
