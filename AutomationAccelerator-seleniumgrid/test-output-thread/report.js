@@ -1,58 +1,58 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "c79d2799-892b-46d4-9596-4caf58b49355",
+    "id": "c026c00e-3c4f-4477-a9c8-9e09b7acd720",
     "feature": "Account Page Feature",
     "scenario": "Accounts page title",
-    "start": 1624257611625,
+    "start": 1624261278841,
     "group": 17,
     "content": "",
     "tags": "@accounts,",
-    "end": 1624257643019,
-    "className": "passed"
+    "end": 1624261299259,
+    "className": "failed"
   },
   {
-    "id": "abc8ba31-06fc-4dba-a350-976cb6a5ef1e",
+    "id": "3101c215-0db3-4120-929f-b5de60cb11c6",
     "feature": "Account Page Feature",
     "scenario": "Accounts section count",
-    "start": 1624257611631,
+    "start": 1624261278842,
     "group": 18,
     "content": "",
     "tags": "@accounts,",
-    "end": 1624257630950,
+    "end": 1624261324264,
     "className": "passed"
   },
   {
-    "id": "f95a5a8a-f0f9-445e-8ea5-3bd7dab1c48a",
+    "id": "d680873d-4507-4dba-88c0-47920091007d",
     "feature": "Login page feature",
     "scenario": "Login with correct credentials",
-    "start": 1624257611628,
+    "start": 1624261278837,
     "group": 21,
     "content": "",
     "tags": "",
-    "end": 1624257646531,
+    "end": 1624261324614,
     "className": "passed"
   },
   {
-    "id": "9cc3721c-a038-48bd-bc55-03d4bcad0545",
-    "feature": "Login page feature",
-    "scenario": "Login page title",
-    "start": 1624257611632,
-    "group": 19,
-    "content": "",
-    "tags": "",
-    "end": 1624257633205,
-    "className": "passed"
-  },
-  {
-    "id": "a35a95b9-9019-4588-87f3-29ed328a718e",
+    "id": "dbb4a92f-beee-480b-a8d1-8cb3e2cdfd70",
     "feature": "Login page feature",
     "scenario": "Forgot Password link",
-    "start": 1624257611544,
+    "start": 1624261278764,
     "group": 20,
     "content": "",
     "tags": "",
-    "end": 1624257624789,
+    "end": 1624261292685,
+    "className": "passed"
+  },
+  {
+    "id": "7c7aa365-f3aa-43b8-9673-ff26619fbd3b",
+    "feature": "Login page feature",
+    "scenario": "Login page title",
+    "start": 1624261278843,
+    "group": 19,
+    "content": "",
+    "tags": "",
+    "end": 1624261292935,
     "className": "passed"
   }
 ]);
